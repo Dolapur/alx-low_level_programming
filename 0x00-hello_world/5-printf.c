@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- *main - entry point
+ *main - main block
  *
- * Description : using the main function
  *return: 0
 */
 int main(void)
