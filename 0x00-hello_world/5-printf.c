@@ -2,7 +2,6 @@
 
 /**
  *Description: main - print out a string to stdout.
- *
  *return: 0 if successful
 */
 int main(void)
