@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
@@ -16,19 +18,17 @@ int main(void)
 
 	x = n % 10;
 
-	printf("Last digit of %d is %d ", n, x);
-
 	if (x > 5)
 	{
-	printf("and is greater than 5\n");
+	printf("Last digit of %i is %i and is greater than 5\n", n, x);
 	}
 	else if (x == 0)
 	{
-	printf("and is 0\n");
+	printf("Last digit of %i is %i and is 0\n", n, x);
 	}
-	else (x < 6 && x != 0)
+	else if (x < 6 && x != 0)
 	{
-	printf("and is less than 6 and not 0\n");
+	printf("Last digit of %i is %i and is less than 6 and not 0\n");
 	}
 	return (0);
 }
