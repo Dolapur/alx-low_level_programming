@@ -14,13 +14,20 @@ int main(void)
 
 {
 
-	int ch;
+	char ch;
 
-	for (ch = 97; ch <= 122; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 
 	{
-	
-		putchar(ch);									
+
+		if (ch != 'q' && ch != 'e')
+
+		{
+
+			putchar(ch);
+
+		}
+
 	}
 
 	putchar(10); /* this is an ascii code for new line*/

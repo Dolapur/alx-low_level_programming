@@ -2,34 +2,35 @@
 
 /**
  *
- *  *main -> assign a random number to the variable n each time it is executed
+ * main -> assign a random number to the variable n each time it is executed
  *
- *   *and print the last digit of the number stored in the variable n
+ * and print the last digit of the number stored in the variable n
  *
- *    *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  *
- *     */
+*/
 
 int main(void)
 
 {
 
-	char ch;
+	int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 97; ch <= 122; ch++)
 
 	{
 
-		if (ch != 'q' && ch != 'e')
-
-		{
-
-			putchar(ch);
-
-		}
+		putchar(ch);
 
 	}
 
+	for (ch = 65; ch <= 90; ch++)
+
+	{
+
+		putchar(ch);
+
+	}
 
 	putchar(10); /* this is an ascii code for new line*/
 
