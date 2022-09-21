@@ -11,7 +11,7 @@ int _strcmp(char *s1, char *s2)
 	char *a = s1;
 	char *b = s2;
 
-	while (*a && *b && *a == *b)
+	while (*a != '\0' && *b != '\0' && *a == *b)
 	{
 		*a++;
 		*b++;
