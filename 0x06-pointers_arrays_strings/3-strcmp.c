@@ -13,8 +13,8 @@ int _strcmp(char *s1, char *s2)
 
 	while (*a != '\0' && *b != '\0' && *a == *b)
 	{
-		*a++;
-		*b++;
+		a++;
+		b++;
 	}
 	return (*a - *b);
 }
