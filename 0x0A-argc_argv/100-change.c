@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * Prints the minimum number of coins to change
+ * main - Prints the minimum number of coins to change
  * @argc: The number of arguments supplied to the program.
  * @argv: An array of pointers to the arguments.
  *
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	while (cents > 0)
 	{
 		coins++;
-		
+
 		if ((cents - 25) >= 0)
 		{
 			cents -= 25;
