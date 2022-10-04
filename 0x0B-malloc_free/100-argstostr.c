@@ -32,5 +32,8 @@ char *argstostr(int ac, char **av)
 		str[c++] = '\n';
 	}
 	str[size] = '\0';
-	return (str);
+	if (str != NULL)
+		return (str);
+	else
+		return (NULL);
 }
