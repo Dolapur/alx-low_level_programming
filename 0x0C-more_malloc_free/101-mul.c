@@ -20,7 +20,8 @@ int find_len(char *str)
 
 	while (*str++)
 		len++;
-		return (len);
+
+	return (len);
 }
 
 /**
