@@ -43,6 +43,7 @@ char *create_xarray(int size)
 
 	if (array == NULL)
 		exit(98);
+
 	for (index = 0; index < (size - 1); index++)
 		array[index] = 'x';
 
@@ -62,6 +63,7 @@ char *iterate_zeroes(char *str)
 {
 	while (*str && *str == '0')
 		str++;
+
 	return (str);
 }
 
