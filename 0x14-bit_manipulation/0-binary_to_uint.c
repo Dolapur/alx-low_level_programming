@@ -10,9 +10,9 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int k = 1;
 	unsigned int i = 0;
-	unsigned int len;
+	int len;
 
-	if (b = '\0')
+	if (b == '\0')
 		return (0);
 
 	for (len = 0; b[len];)
