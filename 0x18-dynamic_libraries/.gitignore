@@ -1,2 +1,4 @@
-.libdynamic.o
-.libdynamic.c
+libdynamic.o
+libdynamic.c
+0-main.c
+len
